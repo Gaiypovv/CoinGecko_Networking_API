@@ -15,6 +15,8 @@
 		7F30E2A12B32A19600FF39CF /* CoinGecko_Networking_APIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F30E2A02B32A19600FF39CF /* CoinGecko_Networking_APIUITests.swift */; };
 		7F30E2A32B32A19600FF39CF /* CoinGecko_Networking_APIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F30E2A22B32A19600FF39CF /* CoinGecko_Networking_APIUITestsLaunchTests.swift */; };
 		7F30E2B02B32A7AD00FF39CF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F30E2AF2B32A7AD00FF39CF /* Model.swift */; };
+		7F30E2B22B32A99800FF39CF /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F30E2B12B32A99800FF39CF /* NewsView.swift */; };
+		7F30E2B42B32A9DE00FF39CF /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F30E2B32B32A9DE00FF39CF /* NewsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		7F30E2A02B32A19600FF39CF /* CoinGecko_Networking_APIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGecko_Networking_APIUITests.swift; sourceTree = "<group>"; };
 		7F30E2A22B32A19600FF39CF /* CoinGecko_Networking_APIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGecko_Networking_APIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7F30E2AF2B32A7AD00FF39CF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		7F30E2B12B32A99800FF39CF /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		7F30E2B32B32A9DE00FF39CF /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				7F30E2852B32A19500FF39CF /* CoinGecko_Networking_APIApp.swift */,
 				7F30E2872B32A19500FF39CF /* ContentView.swift */,
 				7F30E2AF2B32A7AD00FF39CF /* Model.swift */,
+				7F30E2B32B32A9DE00FF39CF /* NewsModel.swift */,
+				7F30E2B12B32A99800FF39CF /* NewsView.swift */,
 				7F30E2892B32A19600FF39CF /* Assets.xcassets */,
 				7F30E28B2B32A19600FF39CF /* Preview Content */,
 			);
@@ -261,8 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F30E2B02B32A7AD00FF39CF /* Model.swift in Sources */,
+				7F30E2B22B32A99800FF39CF /* NewsView.swift in Sources */,
 				7F30E2882B32A19500FF39CF /* ContentView.swift in Sources */,
 				7F30E2862B32A19500FF39CF /* CoinGecko_Networking_APIApp.swift in Sources */,
+				7F30E2B42B32A9DE00FF39CF /* NewsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
