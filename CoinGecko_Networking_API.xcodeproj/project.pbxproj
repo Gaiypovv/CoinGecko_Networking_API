@@ -98,9 +98,9 @@
 			children = (
 				7F30E2852B32A19500FF39CF /* CoinGecko_Networking_APIApp.swift */,
 				7F30E2872B32A19500FF39CF /* ContentView.swift */,
+				7F30E2AF2B32A7AD00FF39CF /* Model.swift */,
 				7F30E2892B32A19600FF39CF /* Assets.xcassets */,
 				7F30E28B2B32A19600FF39CF /* Preview Content */,
-				7F30E2AF2B32A7AD00FF39CF /* Model.swift */,
 			);
 			path = CoinGecko_Networking_API;
 			sourceTree = "<group>";

@@ -51,3 +51,17 @@ struct Main: Codable, Hashable {
         case lastUpdated = "last_updated"
     }
 }
+
+// MARK: - Roi
+struct Roi: Codable, Hashable {
+    let times: Double?
+    let currency: Currency?
+    let percentage: Double?
+}
+
+enum Currency: String, Codable, Hashable {
+    case bts = "btc"
+    case eth = "eth"
+    case usd = "usd"
+}
+
