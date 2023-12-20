@@ -18,6 +18,7 @@
 		7F30E2B22B32A99800FF39CF /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F30E2B12B32A99800FF39CF /* NewsView.swift */; };
 		7F30E2B42B32A9DE00FF39CF /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F30E2B32B32A9DE00FF39CF /* NewsModel.swift */; };
 		7F30E2B62B32AB8D00FF39CF /* ExchangesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F30E2B52B32AB8D00FF39CF /* ExchangesView.swift */; };
+		7F30E2B82B32ABFA00FF39CF /* ExchangeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F30E2B72B32ABFA00FF39CF /* ExchangeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		7F30E2B12B32A99800FF39CF /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
 		7F30E2B32B32A9DE00FF39CF /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
 		7F30E2B52B32AB8D00FF39CF /* ExchangesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangesView.swift; sourceTree = "<group>"; };
+		7F30E2B72B32ABFA00FF39CF /* ExchangeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				7F30E2B32B32A9DE00FF39CF /* NewsModel.swift */,
 				7F30E2B12B32A99800FF39CF /* NewsView.swift */,
 				7F30E2B52B32AB8D00FF39CF /* ExchangesView.swift */,
+				7F30E2B72B32ABFA00FF39CF /* ExchangeModel.swift */,
 				7F30E2892B32A19600FF39CF /* Assets.xcassets */,
 				7F30E28B2B32A19600FF39CF /* Preview Content */,
 			);
@@ -270,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F30E2B02B32A7AD00FF39CF /* Model.swift in Sources */,
+				7F30E2B82B32ABFA00FF39CF /* ExchangeModel.swift in Sources */,
 				7F30E2B22B32A99800FF39CF /* NewsView.swift in Sources */,
 				7F30E2882B32A19500FF39CF /* ContentView.swift in Sources */,
 				7F30E2862B32A19500FF39CF /* CoinGecko_Networking_APIApp.swift in Sources */,
