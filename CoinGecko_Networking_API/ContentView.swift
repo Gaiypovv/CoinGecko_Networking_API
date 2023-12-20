@@ -21,24 +21,24 @@ struct ContentView: View {
                     Text("Top 100")
                     Image(systemName: "bitcoin.circle")
                 }
-//        NewsView()
-//                .tag(1)
-//                .tabItem {
-//                    Text("News")
-//                    Image(systemName: "newspaper")
-//                }
-//        ExchagesView()
-//                .tag(2)
-//                .tabItem {
-//                    Text("Exchages")
-//                    Image(systemName: "bag.fill")
-//                }
-//        About()
-//                .tag(3)
-//                .tabItem {
-//                    Text("About")
-//                    Image(systemName: "questionmark.app")
-//                }
+        NewsView()
+                .tag(1)
+                .tabItem {
+                    Text("News")
+                    Image(systemName: "newspaper")
+                }
+        ExchangesView()
+                .tag(2)
+                .tabItem {
+                    Text("Exchages")
+                    Image(systemName: "bag.fill")
+                }
+        About()
+                .tag(3)
+                .tabItem {
+                    Text("About")
+                    Image(systemName: "questionmark.app")
+                }
         }
     }
 }
@@ -221,12 +221,12 @@ struct About: View {
                     HStack {
                         Text("Author")
                         Spacer()
-                        Text("ColdBio")
+                        Text("Gaiypov")
                     }
                     HStack {
                         Text("Github")
                         Spacer()
-                        Text("www.github.com/ColdBio")
+                        Text("www.github.com/Gaiypovv")
                     }
                 }
 
@@ -234,7 +234,7 @@ struct About: View {
                     HStack {
                         Text("License")
                         Spacer()
-                        Text("MIT License")
+                        Text("Kyrgyzstan")
                     }
                 }
             }

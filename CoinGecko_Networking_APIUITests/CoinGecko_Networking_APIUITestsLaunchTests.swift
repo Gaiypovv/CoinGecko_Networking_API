@@ -30,3 +30,4 @@ final class CoinGecko_Networking_APIUITestsLaunchTests: XCTestCase {
         add(attachment)
     }
 }
+

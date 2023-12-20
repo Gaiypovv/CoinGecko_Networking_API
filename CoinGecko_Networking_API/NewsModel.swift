@@ -11,7 +11,7 @@ struct NewsModel: Codable {
     let status: String?
     let totalResults: Int?
     let articles: [Article]?
-    
+
     enum CodingKeys: String, CodingKey {
         case status = "status"
         case totalResults = "totalResults"
@@ -19,7 +19,8 @@ struct NewsModel: Codable {
     }
 }
 
-struct Arcticle: Codable, Hashable {
+
+struct Article: Codable, Hashable {
     let title: String?
     let description: String?
     let url: String?

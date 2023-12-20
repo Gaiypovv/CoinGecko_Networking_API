@@ -20,6 +20,7 @@
 		7F30E2B62B32AB8D00FF39CF /* ExchangesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F30E2B52B32AB8D00FF39CF /* ExchangesView.swift */; };
 		7F30E2B82B32ABFA00FF39CF /* ExchangeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F30E2B72B32ABFA00FF39CF /* ExchangeModel.swift */; };
 		7F30E2BA2B32AE5800FF39CF /* Contoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F30E2B92B32AE5800FF39CF /* Contoller.swift */; };
+		7F30E2BD2B32B3AA00FF39CF /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 7F30E2BC2B32B3AA00FF39CF /* SwiftUICharts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F30E2BD2B32B3AA00FF39CF /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +163,9 @@
 			dependencies = (
 			);
 			name = CoinGecko_Networking_API;
+			packageProductDependencies = (
+				7F30E2BC2B32B3AA00FF39CF /* SwiftUICharts */,
+			);
 			productName = CoinGecko_Networking_API;
 			productReference = 7F30E2822B32A19500FF39CF /* CoinGecko_Networking_API.app */;
 			productType = "com.apple.product-type.application";
@@ -233,6 +238,9 @@
 				Base,
 			);
 			mainGroup = 7F30E2792B32A19500FF39CF;
+			packageReferences = (
+				7F30E2BB2B32B3AA00FF39CF /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = 7F30E2832B32A19500FF39CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -606,6 +614,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7F30E2BB2B32B3AA00FF39CF /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7F30E2BC2B32B3AA00FF39CF /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F30E2BB2B32B3AA00FF39CF /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7F30E27A2B32A19500FF39CF /* Project object */;
 }

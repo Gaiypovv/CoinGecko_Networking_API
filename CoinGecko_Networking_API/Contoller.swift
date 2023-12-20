@@ -51,3 +51,25 @@ class NewsAPICall {
         .resume()
     }
 }
+
+class ExchangeAPICall {
+    func getAPI(completion: @escaping ([ExchangeModel]) -> ()) {
+        guard let url = URL(string: "https://api.coingecko.com/api/v3/exchanges" ) else {
+            return
+        }
+        
+        URLSession.shared.dataTask(with: url) { (data, _, _) in
+        
+            do {
+                let returnedData = try JSONDecoder().decode([ExchangeModel].self, from: data!)
+                
+                DispatchQueue.main.async {
+                    completion(returnedData)
+                }
+            } catch {
+                print(String(describing: error))
+            }
+        }
+        .resume()
+    }
+}
