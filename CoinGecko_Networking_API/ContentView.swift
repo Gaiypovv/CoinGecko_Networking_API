@@ -213,3 +213,32 @@ struct CoinDetailedData: View {
     }
 }
 
+struct About: View {
+    var body: some View {
+        VStack {
+            List {
+                Section(header: Text("About Author")) {
+                    HStack {
+                        Text("Author")
+                        Spacer()
+                        Text("ColdBio")
+                    }
+                    HStack {
+                        Text("Github")
+                        Spacer()
+                        Text("www.github.com/ColdBio")
+                    }
+                }
+
+                Section(header: Text("License")) {
+                    HStack {
+                        Text("License")
+                        Spacer()
+                        Text("MIT License")
+                    }
+                }
+            }
+        }
+    }
+}
+
