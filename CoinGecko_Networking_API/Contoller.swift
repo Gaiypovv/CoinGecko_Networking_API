@@ -29,3 +29,25 @@ class APICall {
         .resume()
     }
 }
+
+class NewsAPICall {
+    func getAPI(completion: @escaping (NewsModel) -> ()) {
+        guard let url = URL(string:
+                                "https://newsapi.org/v2/everything?q=crypto&apiKey=4674f381cf3043189a309dadb8aaabd6" ) else {
+            return
+        }
+        URLSession.shared.dataTask(with: url) { (data, _, _) in
+        
+            do {
+                let returnedData = try JSONDecoder().decode(NewsModel.self, from: data!)
+                
+                DispatchQueue.main.async {
+                    completion(returnedData)
+                }
+            } catch {
+                print(String(describing: error))
+            }
+        }
+        .resume()
+    }
+}
