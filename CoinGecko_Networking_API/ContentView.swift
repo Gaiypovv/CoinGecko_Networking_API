@@ -19,7 +19,7 @@ struct ContentView: View {
                 .tag(0)
                 .tabItem {
                     Text("Top 100")
-                    Image(systemName: "bitcoin.circle")
+                    Image(systemName: "bitcoinsign")
                 }
         NewsView()
                 .tag(1)
