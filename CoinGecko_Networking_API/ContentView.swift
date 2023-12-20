@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    private enum Tab: Hashable {
+        case chart
+        case test
+    }
+    @State private var selectedTab: Tab = .chart
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView(selection: $selectedTab) {
+        
         }
         .padding()
     }
