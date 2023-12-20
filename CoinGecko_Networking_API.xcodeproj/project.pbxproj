@@ -14,6 +14,7 @@
 		7F30E2972B32A19600FF39CF /* CoinGecko_Networking_APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F30E2962B32A19600FF39CF /* CoinGecko_Networking_APITests.swift */; };
 		7F30E2A12B32A19600FF39CF /* CoinGecko_Networking_APIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F30E2A02B32A19600FF39CF /* CoinGecko_Networking_APIUITests.swift */; };
 		7F30E2A32B32A19600FF39CF /* CoinGecko_Networking_APIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F30E2A22B32A19600FF39CF /* CoinGecko_Networking_APIUITestsLaunchTests.swift */; };
+		7F30E2B02B32A7AD00FF39CF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F30E2AF2B32A7AD00FF39CF /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		7F30E29C2B32A19600FF39CF /* CoinGecko_Networking_APIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinGecko_Networking_APIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F30E2A02B32A19600FF39CF /* CoinGecko_Networking_APIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGecko_Networking_APIUITests.swift; sourceTree = "<group>"; };
 		7F30E2A22B32A19600FF39CF /* CoinGecko_Networking_APIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGecko_Networking_APIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7F30E2AF2B32A7AD00FF39CF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				7F30E2872B32A19500FF39CF /* ContentView.swift */,
 				7F30E2892B32A19600FF39CF /* Assets.xcassets */,
 				7F30E28B2B32A19600FF39CF /* Preview Content */,
+				7F30E2AF2B32A7AD00FF39CF /* Model.swift */,
 			);
 			path = CoinGecko_Networking_API;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F30E2B02B32A7AD00FF39CF /* Model.swift in Sources */,
 				7F30E2882B32A19500FF39CF /* ContentView.swift in Sources */,
 				7F30E2862B32A19500FF39CF /* CoinGecko_Networking_APIApp.swift in Sources */,
 			);
